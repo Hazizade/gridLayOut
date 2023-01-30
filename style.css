@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    height: 600px;
+}
+
+
+.box_1{
+    grid-row: 1/4;
+    background-color:  rgb(9, 64, 0);
+}
+
+.box_2{
+    grid-column: 2/4;
+    background-color:  rgb(9, 64, 0);
+}
+
+.box_6{
+    grid-row: 2/4;
+    background-color: rgb(9, 64, 0);
+    grid-column: 4/5;
+
+}
+
+.b0x_3,.box_5,.box_7{
+    background-color: rgb(88, 0, 0);
+}
+
+.box_4,.box_8{
+    background-color: rgb(179, 179, 2);
+}
